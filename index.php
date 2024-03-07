@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Je choisis mes Célébrités !!!</h1>
-    <form action="index.html" method="post" enctype="multipart/form-data" >
+    <form action="lib/celebrity.php" method="post" enctype="multipart/form-data" >
     <input type="hidden" name="MAX_FILE_SIZE" value="2097152" >
     <input type="file" name="image" >
     <input type="submit" name="Ajouter" >
