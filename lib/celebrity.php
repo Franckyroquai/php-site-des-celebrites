@@ -12,9 +12,16 @@
         <div class="btn-ajout" >
             <a href="../">Ajouter une célébrité</a>
         </div>
-        <img src="../images/celebrity-1.jpg" alt="">
+      <?php
+      //var_dump($_FILES);
+
+      if (isset($_FILES["image"]["name"]) && ($_FILES["image"]["error"] ==0)) {
+        var_dump($_FILES);
+    }
+
+      ?>
+
+
     </div>
-    
-    
 </body>
 </html>
