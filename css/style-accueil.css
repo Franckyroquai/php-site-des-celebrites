@@ -1,0 +1,63 @@
+/* général */
+body {
+    background-color: rgb(237, 234, 255);
+}
+/* Titre */
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #56AA89;
+    margin: 0px auto;
+    box-shadow: 5px 5px 5px 5px black;
+    width: 440px;
+    border-radius: 15px;
+}
+/* Formulaire */
+form {
+    border: 1px solid black;
+    width: 550px;
+    background-color: #56AA89;
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 15px;
+}
+
+input [type="submit"]{
+    padding: 10px 25px;
+    background-color: blanchedalmond;
+    text-shadow: 1px 2px 2px black;
+    color: aliceblue;
+    border: none;
+    margin-left: 425px;
+    font-weight: bold;
+}
+
+input:hover{
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: rgb(94, 144, 214);
+    color: azure;
+    font-size: 20px;
+}
+
+.btn-affiche {
+    background-color: #56AA89;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.btn-affiche a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-affiche:hover {
+    background-color: blue;
+    cursor: pointer;
+}
