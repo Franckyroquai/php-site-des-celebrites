@@ -12,6 +12,7 @@ div.celebrity img {
     width: 250px;
     height: 400px;
     border-radius: 20px;
+    margin: 8px;
 }
 
 div.celebrity img:hover {
